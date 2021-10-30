@@ -1,0 +1,91 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-image: url(../Imagenes/fondo.jpg);
+    margin: 25px;
+}
+h1{
+    text-align: center;
+    font-size: 68px;
+    color: white;
+    padding: 10px;
+    background-color: darkred;
+    border: 10px solid;
+}   
+ul li {
+    display: inline;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 0px 20px;
+    background-color: dimgrey;
+}
+a{
+    color: azure;
+    text-decoration: none;
+    font-size: 20px;
+}
+h2{
+    background-color: dimgrey;
+    padding: 10px;
+    font-size: 30px;
+    border: 10px solid;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    background-color: white;
+    padding: 15px;
+    text-align: justify;
+    border: 10px solid;
+}
+li:hover{
+    background-color:darkred;
+}
+a:hover{
+    color: black;
+}
+a:active{
+    color:darkgray;
+}
+img{
+    border: 10px solid;
+    display: block;
+    margin: auto;
+}
+iframe{
+    display: block;
+    margin: auto;
+    border: 10px solid;
+}
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.5);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+h3{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+input, texarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 6;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+#boton {
+    background: #31384A;
+    color: white;
+}
+#boton;:hover{
+    cursor: pointer;
+}
